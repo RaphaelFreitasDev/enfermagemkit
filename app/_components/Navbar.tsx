@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <div className="container w-[1200px] m-auto flex my-8 items-center justify-between ">
+    <div className="container w-[1200px] m-auto flex my-8 items-center justify-between sm:flex-col ">
       <h2 className="text-4xl text-red-700 font-semibold">Enfermagem Kit</h2>
       <div className="flex gap-6">
         <Link
