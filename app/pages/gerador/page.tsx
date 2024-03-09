@@ -436,7 +436,7 @@ export default function Gerador() {
           <div className="w-full">
             {inputsCurativos.length > 0
               ? inputsCurativos.map((item, index) => (
-                  <div tabIndex={index} className="flex flex-col my-4">
+                  <div key={index} className="flex flex-col my-4">
                     <span> Curativo {item}: </span>
                     <input
                       type="text"
