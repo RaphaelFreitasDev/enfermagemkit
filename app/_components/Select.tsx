@@ -17,8 +17,10 @@ export default function Select({
       <option value="" disabled>
         {defaultOption}
       </option>
-      {options.map((opt) => (
-        <option value={opt}>{opt}</option>
+      {options.map((opt, key) => (
+        <option key={key} value={opt}>
+          {opt}
+        </option>
       ))}
     </select>
   );
