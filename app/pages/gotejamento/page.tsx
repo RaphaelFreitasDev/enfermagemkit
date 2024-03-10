@@ -34,12 +34,12 @@ export default function Gotejamento() {
   };
 
   return (
-    <div className="w-[1200px] m-auto flex flex-col items-center justify-center my-8 border-t-2 border-red-400 gap-8 ">
+    <div className="w-full m-auto flex flex-col items-center justify-center my-8 border-t-2 border-red-400 gap-8 ">
       <h2 className="text-2xl my-8  ">
         Calculadora de Gotejamento de Medicações
       </h2>
-      <section className="flex w-full items-center justify-between">
-        <div className="flex flex-col justify-center items-center gap-2">
+      <section className="flex flex-col w-full max-[1200px] items-center justify-center gap-4">
+        <div className="flex flex-col md:flex-row justify-center items-center ">
           <label htmlFor="volume" className="text-red-600 font-bold">
             {" "}
             Volume Total (ml)

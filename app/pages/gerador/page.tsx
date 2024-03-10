@@ -135,7 +135,7 @@ export default function Gerador() {
   };
 
   return (
-    <div className="w-[1200px] m-auto flex flex-col items-center justify-center my-8 border-t-2 border-red-400 ">
+    <div className="w-full px-4 flex flex-col items-center justify-center my-8 border-t-2 border-red-400 ">
       <h1 className="text-4xl mt-8">Gerador de Evolução de Enfermagem</h1>
 
       <div className="w-full flex flex-col ">
