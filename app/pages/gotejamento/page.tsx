@@ -38,8 +38,8 @@ export default function Gotejamento() {
       <h2 className="text-2xl my-8  ">
         Calculadora de Gotejamento de Medicações
       </h2>
-      <section className="flex flex-col w-full max-[1200px] items-center justify-center gap-4">
-        <div className="flex flex-col md:flex-row justify-center items-center ">
+      <section className="flex flex-col md:flex-row  w-full max-[1200px] items-center justify-center gap-4">
+        <div className="flex flex-col justify-center items-center ">
           <label htmlFor="volume" className="text-red-600 font-bold">
             {" "}
             Volume Total (ml)
